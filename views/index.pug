@@ -1,0 +1,46 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css')
+h1  B&eacute; t&#x1EAD;p t&iacute;nh
+.container
+  .row
+    .col.col-md-2 S&#x1ED1; th&#x1EE9; nh&#x1EA5;t:
+    .col
+      input#numb1(type='text' name='numb1')
+      br
+    .col
+      input#cong(type='radio' name='optradio' checked='')
+      |  C&#x1ED9;ng
+    .col
+      .form-check
+        input#tru(type='radio' name='optradio')
+        |  Tr&#x1EEB;
+  hr
+  .row
+    .col.col-md-2 S&#x1ED1; th&#x1EE9; hai:
+    .col
+      input#numb2(type='text' name='numb2')
+      br
+    .col
+      input#nhan(type='radio' name='optradio')
+      |  Nh&acirc;n
+    .col
+      .form-check
+        input#chia(type='radio' name='optradio')
+        |  Chia
+  hr
+  .row
+    .col.col-md-2 K&#x1EBF;t qu&#x1EA3;:
+    .col
+      p#kq
+    .col
+      button#btn(type='button') T&iacute;nh
+    .col.col-md-2
+    .col.col-md-2
+  hr
+  .row
+    .col.col-md-2 Th&ocirc;ng b&aacute;o:
+    p#thongbao
+    script(src='../javascripts/compute.js')
+
